@@ -1,0 +1,11 @@
+class Solution {
+    public String addBinary(String a, String b) {
+        int num1 = Integer.parseUnsignedInt(a,2);
+        int num2 = Integer.parseUnsignedInt(b, 2);
+
+        int sum = num1 + num2;
+
+        return Integer.toBinaryString(sum);
+        
+    }
+}
